@@ -1,0 +1,1 @@
+velero backup create eks-wp-mysql-backup --include-namespaces wp-mysql --wait

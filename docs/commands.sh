@@ -1,0 +1,1 @@
+helm install velero vmware-tanzu/velero -f docs/velero-values.yaml --namespace velero --create-namespace --set snapshotsEnabled=true --set deployNodeAgent=true --set uploaderType="restic"

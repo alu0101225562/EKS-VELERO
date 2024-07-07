@@ -1,0 +1,5 @@
+environment     = "demo"
+cluster_name    = "velero-cluster-test"
+cluster_version = "1.30"
+region          = "us-west-2"
+vpc_cidr        = "10.0.0.0/16"
